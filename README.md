@@ -28,3 +28,10 @@ This project implements a Deep Learning pipeline to segment brain tumors from mu
 2. **Install Dependencies:**
    ```bash
    pip install -r requirements.txt
+3. **Run the API:**
+   ```bash
+   uvicorn main:app --reload
+4. **Docker Deployment:**
+   ```bash
+   docker build -t brain-segmentation-api .
+   docker run -p 8000:8000 brain-segmentation-api
