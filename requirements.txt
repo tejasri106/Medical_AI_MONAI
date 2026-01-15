@@ -1,0 +1,1 @@
+torch\nmonai\nnibabel\nfastapi\nuvicorn\npython-multipart\nnumpy
